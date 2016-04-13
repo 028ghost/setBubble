@@ -1,5 +1,5 @@
 
-var setResponse = function(obj) {
+var creatBubble = function(obj) {
 
     var getAclass = function() {
         var tagName = document.getElementsByTagName(obj.tagName);
@@ -47,7 +47,7 @@ var setResponse = function(obj) {
 };
 
 
-setResponse({
+creatBubble({
     className: 'set-link',   //  调用的class样式名
     tagName:'a', //作用在a标签名上
     bgColor:'#fff'  //涟漪背景色，默认为白色
